@@ -1,0 +1,39 @@
+/* Add these styles to your existing CSS */
+
+/* Style for "Add to Cart" buttons */
+.add-to-cart-btn {
+  background-color: #178582;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0A1828;
+}
+
+/* Style for "Order" and "Clear Cart" buttons */
+#order-btn, #clear-cart-btn {
+  background-color: #178582;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+#order-btn:hover, #clear-cart-btn:hover {
+  background-color: #0A1828;
+}
+.coffee-img {
+  width: 100%;
+  height: auto;
+}
+
+  .menu-item {
+    width: 100%;/* Adjust the width as needed, leaving some space for margins */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+  }

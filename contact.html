@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Cats & Coffee - Contacts</title>
+
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Add Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">  
+
+  <style>
+    body {
+      background-color: #0A1828;
+      color: #BFA181;
+    }
+
+    .navbar {
+      background-color: #178582;
+    }
+
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #BFA181 !important;
+    }
+
+    .navbar-brand-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-brand {
+      margin: 100;
+    }
+
+    .navbar-nav .nav-link {
+      font-size: 1.25rem;
+    }
+
+    .navbar-brand img {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+    }
+
+    .jumbotron {
+      background: url('coffee.jpg') center/cover no-repeat;
+      color: #BFA181;
+      text-align: center;
+      padding: 150px 0;
+      margin-bottom: 0;
+    }
+
+    .jumbotron h1 {
+      font-size: 3.5rem;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    .card {
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background-color: #178582;
+      color: #BFA181;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #BFA181;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #BFA181;
+    }
+
+    p {
+      color: #BFA181;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Навигационная панель -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="mx-auto d-flex align-items-center navbar-brand-container">
+    <a class="navbar-brand" href="#">
+      <img src="your-logo.gif" width="100" height="100" alt="Logo">
+    </a>
+    <h1 class="navbar-brand mb-0" style="font-size: 2rem;">Cats & Coffee</h1>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home <span class="sr-only">(текущая)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu.html"><i class="fas fa-coffee"></i> Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="galery.html"><i class="fas fa-images"></i> Gallery</a> <!-- Используем иконку для галереи -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contacts</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <!-- Заголовок страницы -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Contact with us</h1>
+      <p class="lead">Our doors are always open for you</p>
+    </div>
+  </div>
+
+  <!-- Контактная информация -->
+<div class="row">
+  <div class="col-md-6">
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#contact-info" aria-expanded="false" aria-controls="contact-info">
+      Click Here
+    </button>
+    <div class="collapse" id="contact-info">
+      <h2>Information</h2>
+      <p>
+        <strong>Cats & Coffee</strong><br>
+        123 Cat Street<br>
+        Coffeeville, CO 12345<br>
+        Phone: (555) 123-4567<br>
+        Email: info@catsandcoffee.com
+      </p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <!-- Content from contact.html goes here -->
+  </div>
+</div>
+
+   <!-- footer -->
+  <footer class="bg-dark text-white mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Follow us on social networks:</h5>
+          <p>
+            <!-- Иконка Instagram с ссылкой -->
+            <a href="https://www.instagram.com/" target="_blank" class="text-white mr-3">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <!-- Иконка Facebook с ссылкой -->
+            <a href="https://www.facebook.com/" target="_blank" class="text-white mr-3">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <!-- Иконка YouTube с ссылкой -->
+            <a href="https://www.youtube.com/" target="_blank" class="text-white">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p class="float-md-right">Our location :  
+          Astana city, Uly dala 22</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- Add Bootstrap JS and Popper.js (required for some Bootstrap features) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</
